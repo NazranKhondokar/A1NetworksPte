@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:minWidth="1000dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.maxxitsolution.a1networkspte.DialogFragments.ChatInfoFragment">
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners_edittext_light"
+        android:gravity="center_vertical"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress|textNoSuggestions"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#666666"
+        android:textColorHint="#212121" />
+
+    <EditText
+        android:id="@+id/ed_contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners_edittext_light"
+        android:gravity="center_vertical"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:maxLines="20"
+        android:minLines="10"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#666666"
+        android:textColorHint="#212121" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_okay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Okay"
+        android:textColor="@android:color/white" />
+</LinearLayout>
+

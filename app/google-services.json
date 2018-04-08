@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "98557116864",
+    "firebase_url": "https://a1networkspte-app.firebaseio.com",
+    "project_id": "a1networkspte-app",
+    "storage_bucket": "a1networkspte-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98557116864:android:886700f480a7442c",
+        "android_client_info": {
+          "package_name": "com.maxxitsolution.a1networkspte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98557116864-t8gtk6q19mj1po7d3sn19g2vamcbl5ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maxxitsolution.a1networkspte",
+            "certificate_hash": "a6ce4bb507ae3b8a2949821f03e7dc91d1c09b57"
+          }
+        },
+        {
+          "client_id": "98557116864-o1gpacf5nnnmglc4tcitb8agahv3cakn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4zC52YaNIUwN-eHfogq4o3R9BC1R9uTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98557116864-o1gpacf5nnnmglc4tcitb8agahv3cakn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

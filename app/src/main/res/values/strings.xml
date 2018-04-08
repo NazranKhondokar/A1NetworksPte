@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">A1NetworksPte</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cloud_server">A cloud server is basically a virtual server (rather than a physical server) that runs in a cloud computing environment. The server is delivered via a cloud computing platform over the internet.</string>
+    <string name="voip_termination">Wholesale VoIP termination makes life easier! It lets you talk to your loved ones or clients across the oceans while standing on a remote island- at incredibly low costs!</string>
+    <string name="vos_3000">Our Vos3000 Solution to help meet your universal carrier-class VoIP necessities. We offer you the solution in both rental (in up to 8 truly affordable packages) and in a one-time install solution.</string>
+    <string name="send_email">maxit.exe@gmail.com</string>
+    <string name="address">1 Jalan Berseh #03-12 New World Center, Singapore</string>
+    <string name="email">sales@a1networkspte.com</string>
+    <string name="phone">+880196-6656-666</string>
+
+    <string name="sort_ascending">Sort Ascending</string>
+    <string name="sort_descending">Sort Descending</string>
+    <string name="clear_sorting">Clear</string>
+    <string name="row_show">Show 5. Row</string>
+    <string name="row_hide">Hide 5. Row</string>
+
+    <string name="exit">Exit</string>
+</resources>

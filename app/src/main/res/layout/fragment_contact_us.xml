@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dedicated"
+    android:gravity="center"
+    tools:context="com.maxxitsolution.a1networkspte.DrawerFragments.ContactUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_my_location"
+            android:drawableTint="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text="@string/address"
+            android:textColor="#212121"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_call"
+            android:drawableTint="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/phone"
+            android:textColor="#212121"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawableTint="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/email"
+            android:textColor="#212121"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corners_edittext_light"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/ic_person"
+            android:gravity="center_vertical"
+            android:hint="Full Name"
+            android:inputType="textNoSuggestions"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:textColor="#666666"
+            android:textColorHint="#212121" />
+
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners_edittext_light"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/ic_email"
+            android:gravity="center_vertical"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:textColor="#666666"
+            android:textColorHint="#212121" />
+
+        <EditText
+            android:id="@+id/ed_message"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners_edittext_light"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/ic_chat_bubble"
+            android:gravity="center_vertical"
+            android:hint="Your Message"
+            android:inputType="textMultiLine"
+            android:maxLines="20"
+            android:minLines="10"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:textColor="#666666"
+            android:textColorHint="#212121" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="Send"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+            android:icon="@drawable/ic_home_white_48dp"
+            android:title="Homepage" />
+    </group>
+    <group
+        android:id="@+id/group_two"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/inter_connection"
+            android:icon="@drawable/ic_assignment_white_48dp"
+            android:title="Inter Connection" />
+    </group>
+    <group
+        android:id="@+id/group_three"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/dedicated_server"
+            android:icon="@drawable/ic_storage_white_48dp"
+            android:title="Dedicated Sever" />
+    </group>
+    <group
+        android:id="@+id/group_four"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/a_z_termiination"
+            android:icon="@drawable/ic_dns_white_48dp"
+            android:title="A-Z Termination" />
+    </group>
+    <group
+        android:id="@+id/group_five"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/web_design"
+            android:icon="@drawable/ic_web_white_48dp"
+            android:title="Web Design" />
+    </group>
+    <group
+        android:id="@+id/group_six"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_contact_phone_white_48dp"
+            android:title="Contact Us" />
+    </group>
+</menu>
